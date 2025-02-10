@@ -106,6 +106,8 @@ $(function () {
 let selectionSwiper = new Swiper(".selection-slider", {
     slidesPerView: 3,
     spaceBetween: 14,
+    loop: true,
+
     breakpoints: {
         '1199': {
             slidesPerView: 3,
@@ -140,13 +142,13 @@ let selectionSwiper = new Swiper(".selection-slider", {
 
 
 let examplesSwiper = new Swiper(".examples-slider", {
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 14,
     loop: true,
     centeredSlides: true,
     breakpoints: {
         '1199': {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 14,
         },
         '991': {
@@ -179,13 +181,13 @@ let examplesSwiper = new Swiper(".examples-slider", {
 
 
 let reviewsSwiper = new Swiper(".reviews-slider", {
-    slidesPerView: 5,
+    slidesPerView: 4,
     spaceBetween: 12,
     loop: true,
     centeredSlides: true,
     breakpoints: {
         '1480': {
-            slidesPerView: 5,
+            slidesPerView: 4,
             spaceBetween: 12,
         },
         '1299': {
@@ -230,6 +232,7 @@ let reviewsSwiper = new Swiper(".reviews-slider", {
 let giftSwiper = new Swiper(".gift-mobile-slider", {
     slidesPerView: 2,
     spaceBetween: 10,
+    loop: true,
     breakpoints: {
         '575': {
             slidesPerView: 2,
